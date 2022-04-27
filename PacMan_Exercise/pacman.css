@@ -1,0 +1,64 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: red;
+}
+
+.power-pellet {
+    background-color: green;
+    border-radius: 10px;
+}
+.pacmanHeader {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 250px;
+}
+.pac-man {
+    width: 10px;
+    height: 10px;
+    content:url(/Users/kiranmajid/kiranmajid/PacMan_Exercise/images/PacMan1.png);
+    background-color: transparent;
+}
+
+.ghost-cave {
+    background-color: black;
+    z-index: -10;
+}
+
+.red {
+    background-color: red;
+    border: 0px;
+}
+
+.pink {
+    background-color: pink;
+    border: 0px;
+}
+
+.dumby {
+    background-color: burlywood;
+    border: 0px;
+}
+
+.purple {
+    background-color: purple;
+    border: 0px;
+}
